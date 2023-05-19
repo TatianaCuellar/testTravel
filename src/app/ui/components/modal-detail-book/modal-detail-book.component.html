@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>{{responseDetailBook?.title}}</h1>
+<div mat-dialog-content>
+  <p>{{responseDetailBook?.synopsis}}</p>
+  <div class="detail-book">
+    <small>Autor: {{responseDetailBook?.author?.name}} {{responseDetailBook?.author?.last_name}}</small> |
+    <small>Editorial:{{responseDetailBook?.editorial?.name}} - {{responseDetailBook?.editorial?.site}}</small>
+  </div>
+</div>
+<div mat-dialog-actions class="justify-content-end">
+  <button mat-button (click)="closeDialog()">Cerrar</button>
+</div>

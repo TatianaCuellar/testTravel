@@ -1,0 +1,44 @@
+.book-card {
+  max-width: 250px;
+  background: black;
+  color: wheat;
+
+  text-align: center;
+
+  .mat-card-header {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+  }
+  p {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    white-space: break-spaces;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  }
+
+  a {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .container-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: small;
+    margin-top: 36px;
+
+    strong {
+      background: wheat;
+      width: fit-content;
+      padding: 5px;
+      color: black;
+      margin: auto;
+    }
+  }
+}
+

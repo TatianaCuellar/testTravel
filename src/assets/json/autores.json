@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laura",
+    "apellidos": "Suarez Cortijo"
+  },
+  {
+    "id": 2,
+    "nombre": "Camila",
+    "apellidos": "Perez Ortua"
+  },
+  {
+    "id": 3,
+    "nombre": "Javier",
+    "apellidos": "Sanchez Tamayo"
+  },
+  {
+    "id": 4,
+    "nombre": "Cristian",
+    "apellidos": "Vanegas Ortiz"
+  },
+  {
+    "id": 5,
+    "nombre": "Camilo",
+    "apellidos": "Lugo Barragan"
+  }
+]

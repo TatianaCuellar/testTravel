@@ -1,0 +1,10 @@
+<mat-card class="book-card">
+  <mat-card-header>
+    <mat-card-title>{{responseBook?.title}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{ responseBook?.synopsis }}</p>
+    <a (click)="openModal()">Ver más</a>
+    <span class="container-pages"><strong>{{responseBook?.pages}} </strong>páginas</span>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre": "Editorial 1",
+    "sede": "Sede 123"
+  },
+  {
+    "id": 2,
+    "nombre": "Editorial 2",
+    "sede": "Sede 456"
+  },
+  {
+    "id": 3,
+    "nombre": "Editorial 3",
+    "sede": "Sede 789"
+  }
+]
