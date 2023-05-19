@@ -14,7 +14,7 @@ export class AppComponent implements OnInit{
   constructor(private getBooksUseCase: GetBooksUseCase) { }
 
   ngOnInit(): void {
+    // Llamado del enpoint que trae la información de todos los libros
     this.getBooksUseCase.execute().subscribe(listBooks => this.listBooks = listBooks);
-
   }
 }

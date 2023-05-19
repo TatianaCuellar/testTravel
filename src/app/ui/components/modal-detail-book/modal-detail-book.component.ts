@@ -11,6 +11,7 @@ export class ModalDetailBookComponent implements OnInit {
 
   responseDetailBook!: BookModel;
   constructor(public dialogRef: MatDialogRef<ModalDetailBookComponent>, @Inject(MAT_DIALOG_DATA) public data: BookModel) {
+    // Obteniendo el detalle de cada libro
     this.responseDetailBook = data;
   }
 

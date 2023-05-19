@@ -17,6 +17,9 @@ export class CardBookComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  /**
+   * Metodo para abrir la modal que muestra el detalle de un libro
+   */
   openModal() {
     this.dialog.open(ModalDetailBookComponent, {
       width: '60vw',

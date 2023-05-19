@@ -2,17 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
+## Install dependencies
+
+Is ver important you have install Angular Cli and Node 
+
+Run `npm install` for download and install all dependencies that need the site
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Development documentation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `compodoc:serve` for initilized to documentation. navigate to `http://127.0.0.1:8080`. 
 
 ## Running unit tests
 
